@@ -29,8 +29,8 @@ export default function FeatureList() {
           <div>
             <div className="feature-info">
               <h2>Designing Dashboards</h2>
-              <div style={{ display: "flex", gap: "15px" }}>
-                <p className="feature-button">2020</p>
+              <div style={{ display: "flex", gap: "15px", alignItems:"center" }}>
+                <button className="feature-button-1">2020</button>
                 <span style={{ fontWeight: "550", color: "gray" }}>Dashboard</span>
               </div>
               <div style={{ fontWeight: "300" }}>
